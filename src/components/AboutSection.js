@@ -66,8 +66,7 @@ function AboutSection(){
                     <h1>About me</h1>
                     <h5>Fullstack web developer</h5>
                     <p>
-                        Hello my name is Ivan Valdes, I am 19 years old mexican software developer, I enjoy working on software projects of any kind, I am centered
-                        on web development but enjoy any kind of software development.<div className={classes.history}>Elit commodo veniam id esse ut aliqua elit amet
+                        Cillum reprehenderit officia reprehenderit sint et pariatur. Eiusmod non irure Lorem laboris minim minim excepteur dolore veniam non sint. Irure culpa Lorem dolore excepteur aliqua deserunt velit dolor ut mollit in enim. Mollit id cillum ex culpa. Velit sunt commodo esse et non exercitation aliquip anim et aute commodo.<div className={classes.history}>Elit commodo veniam id esse ut aliqua elit amet
                          excepteur elit quis ea laboris sunt. Veniam est tempor ut nulla cupidatat culpa. Aute ea qui esse mollit commodo et excepteur est dolor qui tempor.
                          </div>Ut aute cillum enim elit dolor laborum. Consequat velit et elit nostrud. Irure dolor incididunt incididunt irure id elit tempor sit anim anim Lorem dolore est. Ipsum laboris do magna ea nostrud pariatur consectetur consectetur pariatur irure ullamco nostrud. Ex esse dolore in sit sit. Velit anim id duis aute velit cupidatat ex consectetur nostrud. Excepteur consectetur nostrud nulla laboris laboris est commodo.
                     </p>
