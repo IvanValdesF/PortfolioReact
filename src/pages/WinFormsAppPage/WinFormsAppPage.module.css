@@ -303,6 +303,25 @@ button{
         top:-2rem;
         background-image: url('../../images/FormsAppImages/inventarioImage.png');
       }
+
+      .tools{
+        
+        
+        flex-direction: column;
+
+      }
+
+      .tools div{
+        width: 100%;
+      }
+      .summary{
+        flex-direction: column;
+        
+      }
+      .summary div{
+        width: 100%;
+        margin-bottom: 1rem;
+      }
       
       
 }
