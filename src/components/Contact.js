@@ -17,7 +17,10 @@ function Contact(){
     function sendEmail(e){
         e.preventDefault();
 
-
+        if(name == ""|| email == ""|| message == ""){
+            setConfirm("All fields are required");
+            return;
+        }
         emailjs.sendForm('service_hy8rb1s','template_re44i1o',e.target,'-U63gzrEp83EfRV7J')
         .then(res=>{setConfirm('Email sent succesfully')}).catch(err => setConfirm('An error has ocurred'));
     }
