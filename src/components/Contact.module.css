@@ -1,0 +1,158 @@
+.contact{
+    color:rgb(199, 255, 207);
+    height: max-content;
+    background-color: #0A2E36;
+    
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    min-height: 80vh;
+}
+
+a{
+    flex: 1;
+    text-decoration: none;
+    outline: none;
+    text-align: center;
+    line-height: 3;
+    color: white;
+}
+.container h4{
+    font-size: 1.2rem; 
+}
+
+.btn button {
+    font: inherit;
+    cursor: pointer;
+    color: rgba(39, 251, 107, 1);
+    border: 1px solid rgba(39, 251, 107, 1);
+    background-color: rgba(39, 251, 107, 0);
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.btn button:hover,
+.btn button:active {
+    transition: 0.3s;
+    background-color: rgba(39, 251, 107, 0.1);
+}
+
+
+.container h1{
+    font-size: 3rem;
+}
+
+.wrapper{
+    background-color: #0A2E36;
+    display: flex;
+    justify-content: space-between;
+    width:70vw;
+    
+    min-height:max-content;
+    margin: 2rem;
+}
+
+.left{
+    width: 49.9%;
+    height: 100%;
+    background-color: #0A2E36;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2%;
+    
+}
+.right{
+    width: 49.9%;
+    height: 100%;
+    background-color: #0A2E36;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coption{
+    background-color: #14CC60;
+    width:80%;
+    height:4rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    border-radius: 2px;
+}
+
+.icon{
+    padding:1rem;
+}
+
+form{
+    background-color:transparent;
+    width: 90%;
+    max-height: 100%;
+}
+
+label{
+    font-size: 1.2rem;
+    
+}
+
+input,textarea{
+    width: 90%;
+    font-size: 1rem;
+    padding: 1.2rem;
+    color: aqua;
+    background-color: #092a31;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+textarea{
+    min-height: 100px;
+    resize: vertical;
+    max-height: 500px;
+}
+
+.separation{
+    background-color: antiquewhite;
+    width: 2px;
+    height: 80vh;
+   
+}
+
+@media (max-width: 900px) {
+    .wrapper{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .separation{
+        background-color: antiquewhite;
+        width: 80vw;
+        height: 2px;
+       
+    }
+    .coption{
+        width:100%;
+    }
+    .left{
+        width:100%;
+        margin:1rem;
+    }
+    .right{
+        width: 100%;
+        margin:1rem;
+    }
+}
+
+.confirm{
+    margin:1rem;
+}

@@ -1,0 +1,169 @@
+.aboutme {
+    width: 70%;
+    height: 90vh;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    color: rgb(199, 255, 207);
+    padding:3rem;
+    justify-content: space-around;
+    
+    /* 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+}
+
+.history{
+    color: rgb(91, 255, 115);
+}
+
+
+
+
+.abouttext {
+    width: 50%;
+    max-width: 50%;
+    min-width: 50%;
+
+}
+
+.abouttext h1 {
+    font-size: 3rem;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.abouttext h5 {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+
+.btn a {
+    font: inherit;
+    cursor: pointer;
+    color: rgba(39, 251, 107, 1);
+    border: 1px solid rgba(39, 251, 107, 1);
+    background-color: rgba(39, 251, 107, 0);
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    transition: 0.3s;
+    width:20%;
+}
+
+.btn a:hover,
+.btn a:active {
+    transition: 0.3s;
+    background-color: rgba(39, 251, 107, 0.1);
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.aboutpage {
+    width: 100%;
+    overflow-x: hidden;
+    
+    background-color: #0A2E36;
+}
+
+.image {
+
+    width: 20rem;
+    margin:20px;
+    border-radius: 50%;
+
+}
+
+
+@media (max-width: 900px) {
+    .aboutme{
+        flex-direction: column;
+        height: max-content;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding:2rem;
+    }
+
+    .abouttext {
+    
+        min-width: none;
+    
+    }
+    .image {
+
+        width: 10rem;
+        margin:20px;
+        border-radius: 50%;
+    
+    }
+
+}
+
+/*
+.imagebg{
+    background-color: aqua;
+    margin:1rem;
+    height:17rem;
+    border-radius: 10px;
+    
+} */
+
+/* .info{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 71vw;
+    font-size: 1.2rem;
+    margin-bottom:20vh;
+    outline: 1px solid;
+    outline-color: aqua;
+    border-radius: 7px;
+    transition:0.2s;
+    position: absolute;
+   max-height: 100vh;
+}
+
+.info:hover {
+    margin-bottom: 9rem;
+    
+}
+
+.header{
+    font-size: 1.2rem;
+    align-self: center;
+    display: inline-block;
+    position: relative;
+    margin-bottom:44%;
+}
+
+.header::after, .header::before{
+    content: "";
+    position:absolute;
+    width: 450px;
+    height: 1px;
+    background-color: rgb(199, 255, 207);
+    top: 1rem;
+}
+.header::before{
+    left:-470px;
+}
+
+.header::after{
+    right: -470px;
+}
+
+p{
+    
+    margin:1rem;
+} */
