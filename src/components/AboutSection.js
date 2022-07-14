@@ -68,13 +68,13 @@ function AboutSection(){
                     <p>
                         Hello my name is Ivan!, 
                         i am a pasionate self taught web developer that really loves
-                        engineerings, i love the problem solving process in order to 
+                        engineering, i love the problem solving process in order to 
                         make it by the most efficient way, my personality does not allow me to 
-                        leave a problem without solve.
+                        leave a problem unsolved.
                         
                           <div className={classes.history}>
                               I want to use my knowledge in order to solve problems in a 
-                              profitable way for an organization and not just for fun as i've been
+                              profitable way for an organization and not just for fun as I've been
                               doing sow far.
                           </div>
                     </p>
