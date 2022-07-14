@@ -125,8 +125,12 @@ function ASPNetCoreAPIPage() {
                 <FadeInWhenVisibleX>
                         <div className={classes.Brief}>
                         <h2>Brief Introduction</h2>
-                           <p>Quis mollit reprehenderit id laborum occaecat voluptate amet duis qui pariatur magna do culpa. Aute ex adipisicing aliqua do dolor do anim dolore cupidatat aute veniam occaecat adipisicing. Exercitation consectetur anim minim ea commodo eiusmod id velit excepteur fugiat velit elit.
-                            </p>
+                           <p>
+                                This is an API that I made to manage the connections from my 
+                                store management application to my database, I
+                                built it using entity framework following a database first methodology
+                                in the MVC design pattern, also I implemented JWT to increase the security.
+                           </p>
                         </div>
 
 
@@ -137,19 +141,16 @@ function ASPNetCoreAPIPage() {
                         <div className={classes.summary}>
                         <div>
                             <h2>My Role</h2>
-                            
-                            Velit dolore ipsum minim ad anim magna quis et cupidatat ad ex. Enim ea eu enim non officia et veniam pariatur excepteur consectetur ex ullamco excepteur dolor. Proident tempor veniam est laborum irure dolor adipisicing laborum excepteur. Qui ea fugiat sunt id incididunt minim voluptate eu occaecat adipisicing consequat incididunt. Et velit eu ad id qui anim laboris. Non et deserunt aute nostrud nisi dolor eiusmod magna incididunt sunt consequat tempor irure. Esse labore quis commodo tempor consectetur.
-
-                        </div>
+                                This was a personal project so my role was to design and program the entire API.
+                                My objective was to make it easy to read, easy to work, secure and scalable.
+                            </div>
                         <div>
                             <h2>Project Difficulties</h2>
-                            Velit dolore ipsum minim ad anim magna quis et cupidatat ad ex. Enim ea eu enim non officia et veniam pariatur excepteur consectetur ex ullamco excepteur dolor. Proident tempor veniam est laborum irure dolor adipisicing laborum excepteur. Qui ea fugiat sunt id incididunt minim voluptate eu occaecat adipisicing consequat incididunt. Et velit eu ad id qui anim laboris. Non et deserunt aute nostrud nisi dolor eiusmod magna incididunt sunt consequat tempor irure. Esse labore quis commodo tempor consectetur.
-
+                            The principal problem that we faced was that it was my first time designing and programming an API so in my first attempt i made a lot of architectural errors that made the program hard to work with.
                         </div>
                         <div>
                             <h2>My Solution</h2>
-                            Velit dolore ipsum minim ad anim magna quis et cupidatat ad ex. Enim ea eu enim non officia et veniam pariatur excepteur consectetur ex ullamco excepteur dolor. Proident tempor veniam est laborum irure dolor adipisicing laborum excepteur. Qui ea fugiat sunt id incididunt minim voluptate eu occaecat adipisicing consequat incididunt. Et velit eu ad id qui anim laboris. Non et deserunt aute nostrud nisi dolor eiusmod magna incididunt sunt consequat tempor irure. Esse labore quis commodo tempor consectetur.
-
+                            My solution for this problem was start over again following a structurated pattern and standarize repetitive practices. I learned a lot about organizational work in order to make a project readable, easy to work and scalable.
                         </div>
                         </div>
 
@@ -157,21 +158,24 @@ function ASPNetCoreAPIPage() {
                         <div>
                             <h2>Technologies used</h2>
                             <ul>
-                                <li>Windows Forms</li>
-                                <li>Font Awesome</li>
-                                <li>SMTP Mail Service</li>
-                                <li>API Rest</li>
-                                <li>Object Oriented Programming</li>
+                                <li>C#</li>
+                                <li>MySQL</li>
+                                <li>.NET Core</li>
+                                <li>MVC</li>
+                                <li>Json Web Tokens</li>
+                                <li>Entity Framework</li>
+                                
                             </ul>
                         </div>
                         <div>
                             <h2>Notable features</h2>
                             <ul>
-                                <li>Authentication Online/Offline</li>
-                                <li>Authorization Levels (Administrator/Employee)</li>
+                                <li>Authentication</li>
+                                <li>Authorization</li>
                                 <li>All CRUD Features</li>
-                                <li>Email sending</li>
+                                <li>Security with JWT</li>
                                 <li>Password Hashing</li>
+                                <li>Store Images</li>
                             </ul>
                         </div>
                         <div>
@@ -196,57 +200,26 @@ function ASPNetCoreAPIPage() {
                 </div>
                 <FadeInWhenVisibleY isVisible={visibleState}>
                     <div className={visibleState ? classes.details : classes.detailshidden}>
-                        <SectionRight title="Login Section" image={require('../../images/FormsAppImages/loginImage.png')}>
-                            Velit dolore ipsum minim ad anim magna quis et cupidatat ad ex. Enim ea eu enim non officia et veniam pariatur excepteur consectetur ex ullamco excepteur dolor. Proident tempor veniam est laborum irure dolor adipisicing laborum excepteur. Qui ea fugiat sunt id incididunt minim voluptate eu occaecat adipisicing consequat incididunt. Et velit eu ad id qui anim laboris. Non et deserunt aute nostrud nisi dolor eiusmod magna incididunt sunt consequat tempor irure. Esse labore quis commodo tempor consectetur.
+                        <SectionRight title="Json Web Tokens" image={require('../../images/APIImages/JWTImage.png')}>
+                            I implemented Json Web Tokens to increase the security on the requests, we dont used them in
+                            the Windows Forms Application but I implemented it to use them in an online shop with
+                            clients.
                         </SectionRight>
 
                         <Divisor />
 
-                        <SectionLeft title="Inventory Section" image={require('../../images/FormsAppImages/inventarioImage.png')}>
-                            Velit dolore ipsum minim ad anim magna quis et cupidatat ad ex. Enim ea eu enim non officia et veniam pariatur excepteur consectetur ex ullamco excepteur dolor. Proident tempor veniam est laborum irure dolor adipisicing laborum excepteur. Qui ea fugiat sunt id incididunt minim voluptate eu occaecat adipisicing consequat incididunt. Et velit eu ad id qui anim laboris. Non et deserunt aute nostrud nisi dolor eiusmod magna incididunt sunt consequat tempor irure. Esse labore quis commodo tempor consectetur.
+                        <SectionLeft title="Password Encrypt" image={require('../../images/APIImages/PassEncryptImage.png')}>
+                            It is not a good security practice to store plain passwords in your database
+                            so I implemented a password encrypter to hash the passwords before insert them in our database.
                         </SectionLeft>
-
+                        
                         <Divisor />
 
-                        <SectionRight title="Add Purchase Section" image={require('../../images/FormsAppImages/añadirComprasImage.png')}>
-                            Velit dolore ipsum minim ad anim magna quis et cupidatat ad ex. Enim ea eu enim non officia et veniam pariatur excepteur consectetur ex ullamco excepteur dolor. Proident tempor veniam est laborum irure dolor adipisicing laborum excepteur. Qui ea fugiat sunt id incididunt minim voluptate eu occaecat adipisicing consequat incididunt. Et velit eu ad id qui anim laboris. Non et deserunt aute nostrud nisi dolor eiusmod magna incididunt sunt consequat tempor irure. Esse labore quis commodo tempor consectetur.
+                        <SectionRight title="Saving files" image={require('../../images/APIImages/FilesImage.png')}>
+                            In order to save the images for each product in the application I decided to store them in our
+                            server storage so I made a method to upload them into the server.
                         </SectionRight>
-
-                        <Divisor />
-
-                        <SectionLeft title="Purchases Section" image={require('../../images/FormsAppImages/verComprasImage.png')}>
-                            Velit dolore ipsum minim ad anim magna quis et cupidatat ad ex. Enim ea eu enim non officia et veniam pariatur excepteur consectetur ex ullamco excepteur dolor. Proident tempor veniam est laborum irure dolor adipisicing laborum excepteur. Qui ea fugiat sunt id incididunt minim voluptate eu occaecat adipisicing consequat incididunt. Et velit eu ad id qui anim laboris. Non et deserunt aute nostrud nisi dolor eiusmod magna incididunt sunt consequat tempor irure. Esse labore quis commodo tempor consectetur.
-                        </SectionLeft>
-
-                        <Divisor />
-
-                        <SectionRight title="Add Sell Section" image={require('../../images/FormsAppImages/añadirVentaImage.png')}>
-                            Velit dolore ipsum minim ad anim magna quis et cupidatat ad ex. Enim ea eu enim non officia et veniam pariatur excepteur consectetur ex ullamco excepteur dolor. Proident tempor veniam est laborum irure dolor adipisicing laborum excepteur. Qui ea fugiat sunt id incididunt minim voluptate eu occaecat adipisicing consequat incididunt. Et velit eu ad id qui anim laboris. Non et deserunt aute nostrud nisi dolor eiusmod magna incididunt sunt consequat tempor irure. Esse labore quis commodo tempor consectetur.
-                        </SectionRight>
-
-                        <Divisor />
-
-                        <SectionLeft title="Sells Section" image={require('../../images/FormsAppImages/verVentasImage.png')}>
-                            Velit dolore ipsum minim ad anim magna quis et cupidatat ad ex. Enim ea eu enim non officia et veniam pariatur excepteur consectetur ex ullamco excepteur dolor. Proident tempor veniam est laborum irure dolor adipisicing laborum excepteur. Qui ea fugiat sunt id incididunt minim voluptate eu occaecat adipisicing consequat incididunt. Et velit eu ad id qui anim laboris. Non et deserunt aute nostrud nisi dolor eiusmod magna incididunt sunt consequat tempor irure. Esse labore quis commodo tempor consectetur.
-                        </SectionLeft>
-
-                        <Divisor />
-
-                        <SectionRight title="Clients Section" image={require('../../images/FormsAppImages/clientesImage.png')}>
-                            Velit dolore ipsum minim ad anim magna quis et cupidatat ad ex. Enim ea eu enim non officia et veniam pariatur excepteur consectetur ex ullamco excepteur dolor. Proident tempor veniam est laborum irure dolor adipisicing laborum excepteur. Qui ea fugiat sunt id incididunt minim voluptate eu occaecat adipisicing consequat incididunt. Et velit eu ad id qui anim laboris. Non et deserunt aute nostrud nisi dolor eiusmod magna incididunt sunt consequat tempor irure. Esse labore quis commodo tempor consectetur.
-                        </SectionRight>
-
-                        <Divisor />
-
-                        <SectionLeft title="Users Section" image={require('../../images/FormsAppImages/usuariosImage.png')}>
-                            Velit dolore ipsum minim ad anim magna quis et cupidatat ad ex. Enim ea eu enim non officia et veniam pariatur excepteur consectetur ex ullamco excepteur dolor. Proident tempor veniam est laborum irure dolor adipisicing laborum excepteur. Qui ea fugiat sunt id incididunt minim voluptate eu occaecat adipisicing consequat incididunt. Et velit eu ad id qui anim laboris. Non et deserunt aute nostrud nisi dolor eiusmod magna incididunt sunt consequat tempor irure. Esse labore quis commodo tempor consectetur.
-                        </SectionLeft>
-
-                        <Divisor />
-
-                        <SectionRight title="Mails Section" image={require('../../images/FormsAppImages/correosImage.png')}>
-                            Velit dolore ipsum minim ad anim magna quis et cupidatat ad ex. Enim ea eu enim non officia et veniam pariatur excepteur consectetur ex ullamco excepteur dolor. Proident tempor veniam est laborum irure dolor adipisicing laborum excepteur. Qui ea fugiat sunt id incididunt minim voluptate eu occaecat adipisicing consequat incididunt. Et velit eu ad id qui anim laboris. Non et deserunt aute nostrud nisi dolor eiusmod magna incididunt sunt consequat tempor irure. Esse labore quis commodo tempor consectetur.
-                        </SectionRight>
+                        
                     </div>
                 </FadeInWhenVisibleY>
 

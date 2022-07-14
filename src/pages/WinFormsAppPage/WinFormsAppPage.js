@@ -151,13 +151,13 @@ function WinFormsAppPage() {
                         </div>
                         <div>
                             <h2>Project Difficulties</h2>
-                            The principal problem that we faced was that it was my first time designing and programming an API so in my first attempt
-                            i made a lot of architectural errors that made the program hard to work with.
+                            One of the problems that we faced was handling the API responses, the program
+                            could not understand directily the responses because it was given in JSON format.
                         </div>
                         <div>
                             <h2>My Solution</h2>
-                            My solution for this problem was start over again following a structurated pattern and standarize repetitive practices.
-                            I learned a lot about organizational work in order to make a project readable, easy to work and scalable.
+                            Our solution to this problem was to create a serializer function and standarize response
+                            and request models.    
                         </div>
                         </div>
 
@@ -176,7 +176,7 @@ function WinFormsAppPage() {
                         <div>
                             <h2>Notable features</h2>
                             <ul>
-                                <li>Authentication Online/Offline</li>
+                                <li>Online Authentication</li>
                                 <li>Authorization Levels (Administrator/Employee)</li>
                                 <li>All CRUD Features</li>
                                 <li>Email sending</li>

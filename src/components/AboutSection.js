@@ -66,9 +66,17 @@ function AboutSection(){
                     <h1>About me</h1>
                     <h5>Fullstack web developer</h5>
                     <p>
-                        Cillum reprehenderit officia reprehenderit sint et pariatur. Eiusmod non irure Lorem laboris minim minim excepteur dolore veniam non sint. Irure culpa Lorem dolore excepteur aliqua deserunt velit dolor ut mollit in enim. Mollit id cillum ex culpa. Velit sunt commodo esse et non exercitation aliquip anim et aute commodo.<div className={classes.history}>Elit commodo veniam id esse ut aliqua elit amet
-                         excepteur elit quis ea laboris sunt. Veniam est tempor ut nulla cupidatat culpa. Aute ea qui esse mollit commodo et excepteur est dolor qui tempor.
-                         </div>Ut aute cillum enim elit dolor laborum. Consequat velit et elit nostrud. Irure dolor incididunt incididunt irure id elit tempor sit anim anim Lorem dolore est. Ipsum laboris do magna ea nostrud pariatur consectetur consectetur pariatur irure ullamco nostrud. Ex esse dolore in sit sit. Velit anim id duis aute velit cupidatat ex consectetur nostrud. Excepteur consectetur nostrud nulla laboris laboris est commodo.
+                        Hello my name is Ivan!, 
+                        i am a pasionate self taught web developer that really loves
+                        engineerings, i love the problem solving process in order to 
+                        make it by the most efficient way, my personality does not allow me to 
+                        leave a problem without solve.
+                        
+                          <div className={classes.history}>
+                              I want to use my knowledge in order to solve problems in a 
+                              profitable way for an organization and not just for fun as i've been
+                              doing sow far.
+                          </div>
                     </p>
                     <div className={classes.btn}>
                         <a href="#contact">Contact me!</a>
