@@ -51,7 +51,7 @@ function Landing(){
         <h2>I love software development</h2>
         </FadeInWhenVisibleY>
         <FadeInWhenVisibleX>
-        <h3>I am a passionate software developer centered on web development with Vue, React, Laravel, ASP .NET Core</h3>
+        <h3>I am a passionate software developer centered on web development with Vue, React, NodeJS, ASP .NET Core</h3>
         
         <div className={classes.media}>
             <a target="_blank" href="https://github.com/IvanValdesF/"><FontAwesomeIcon className={classes.icon} size="2x" icon={faGithub} /></a>
