@@ -203,19 +203,23 @@ function LinearRegressionAppPage() {
                 <FadeInWhenVisibleY isVisible={visibleState}>
                     <div className={visibleState ? classes.details : classes.detailshidden}>
                         <SectionRight title="Interface" image={require('../../images/LinearRegressionImages/interface.png')}>
-                            Velit dolore ipsum minim ad anim magna quis et cupidatat ad ex. Enim ea eu enim non officia et veniam pariatur excepteur consectetur ex ullamco excepteur dolor. Proident tempor veniam est laborum irure dolor adipisicing laborum excepteur. Qui ea fugiat sunt id incididunt minim voluptate eu occaecat adipisicing consequat incididunt. Et velit eu ad id qui anim laboris. Non et deserunt aute nostrud nisi dolor eiusmod magna incididunt sunt consequat tempor irure. Esse labore quis commodo tempor consectetur.
+                            In this application we can see 2 inputs to submit values, a button to add values,
+                            one more to train the network once we have finished submiting all values,
+                            and one last button to delete data from de database and process new data
                         </SectionRight>
 
                         <Divisor />
 
                         <SectionLeft title="Adding values" image={require('../../images/LinearRegressionImages/addValues.png')}>
-                            Velit dolore ipsum minim ad anim magna quis et cupidatat ad ex. Enim ea eu enim non officia et veniam pariatur excepteur consectetur ex ullamco excepteur dolor. Proident tempor veniam est laborum irure dolor adipisicing laborum excepteur. Qui ea fugiat sunt id incididunt minim voluptate eu occaecat adipisicing consequat incididunt. Et velit eu ad id qui anim laboris. Non et deserunt aute nostrud nisi dolor eiusmod magna incididunt sunt consequat tempor irure. Esse labore quis commodo tempor consectetur.
+                            Just starting the application we have two inputs where we can
+                            submit X and Y values and store them in a SQLite database for its processing
                         </SectionLeft>
 
                         <Divisor />
 
                         <SectionRight title="Training network" image={require('../../images/LinearRegressionImages/trainNetwork.png')}>
-                            Velit dolore ipsum minim ad anim magna quis et cupidatat ad ex. Enim ea eu enim non officia et veniam pariatur excepteur consectetur ex ullamco excepteur dolor. Proident tempor veniam est laborum irure dolor adipisicing laborum excepteur. Qui ea fugiat sunt id incididunt minim voluptate eu occaecat adipisicing consequat incididunt. Et velit eu ad id qui anim laboris. Non et deserunt aute nostrud nisi dolor eiusmod magna incididunt sunt consequat tempor irure. Esse labore quis commodo tempor consectetur.
+                            The train network button is for start the network training using the given data
+                            and get the values fot the linear regression ecuation
                         </SectionRight>
 
                         <Divisor />
