@@ -126,10 +126,12 @@ function LinearRegressionAppPage() {
                         <div className={classes.Brief}>
                         <h2>Brief Introduction</h2>
                            <p>
-                                We made a Windows Forms Application to manage inventory, purchases, sells,
-                                clientes, users and send emails. This app works with authorization levels
-                                that restrict which actions you are allowed to do depending if you are administrator 
-                                or employee,    
+                                I made a python application that takes X and Y 
+                                values to calculate a linear regression ecuation and gives 
+                                the necesary data to calculate confidence intervals and 
+                                make sells pronostics with the objective of
+                                apply some of my knlowledges about 
+                                linear regression and neural networks.
                            </p>
                         </div>
 
@@ -141,19 +143,20 @@ function LinearRegressionAppPage() {
                         <div className={classes.summary}>
                         <div>
                             <h2>My Role</h2>
-                            
-                            Velit dolore ipsum minim ad anim magna quis et cupidatat ad ex. Enim ea eu enim non officia et veniam pariatur excepteur consectetur ex ullamco excepteur dolor. Proident tempor veniam est laborum irure dolor adipisicing laborum excepteur. Qui ea fugiat sunt id incididunt minim voluptate eu occaecat adipisicing consequat incididunt. Et velit eu ad id qui anim laboris. Non et deserunt aute nostrud nisi dolor eiusmod magna incididunt sunt consequat tempor irure. Esse labore quis commodo tempor consectetur.
-
+                            I made this application by myself so my role was develop the entire application
+                            making use of my statistics and programming
+                            knlowledges
                         </div>
                         <div>
                             <h2>Project Difficulties</h2>
-                            Velit dolore ipsum minim ad anim magna quis et cupidatat ad ex. Enim ea eu enim non officia et veniam pariatur excepteur consectetur ex ullamco excepteur dolor. Proident tempor veniam est laborum irure dolor adipisicing laborum excepteur. Qui ea fugiat sunt id incididunt minim voluptate eu occaecat adipisicing consequat incididunt. Et velit eu ad id qui anim laboris. Non et deserunt aute nostrud nisi dolor eiusmod magna incididunt sunt consequat tempor irure. Esse labore quis commodo tempor consectetur.
-
+                            One of the difficulties that I had making this application was the implementation
+                            of a neural network, initially I wanted to make the entire network by myself 
+                            just making use of calculus and programming.
                         </div>
                         <div>
                             <h2>My Solution</h2>
-                            Velit dolore ipsum minim ad anim magna quis et cupidatat ad ex. Enim ea eu enim non officia et veniam pariatur excepteur consectetur ex ullamco excepteur dolor. Proident tempor veniam est laborum irure dolor adipisicing laborum excepteur. Qui ea fugiat sunt id incididunt minim voluptate eu occaecat adipisicing consequat incididunt. Et velit eu ad id qui anim laboris. Non et deserunt aute nostrud nisi dolor eiusmod magna incididunt sunt consequat tempor irure. Esse labore quis commodo tempor consectetur.
-
+                            Due to the complexity of that implementation I decided 
+                            to use tensorflow, a google library for machine learning.
                         </div>
                         </div>
 
@@ -161,21 +164,20 @@ function LinearRegressionAppPage() {
                         <div>
                             <h2>Technologies used</h2>
                             <ul>
-                                <li>Windows Forms</li>
-                                <li>Font Awesome</li>
-                                <li>SMTP Mail Service</li>
-                                <li>API Rest</li>
-                                <li>Object Oriented Programming</li>
+                                <li>Python</li>
+                                <li>Machine Learning</li>
+                                <li>Numpy</li>
+                                <li>Tkinter</li>
+                                <li>SQLite3</li>
+                                <li>Matplotlib</li>
                             </ul>
                         </div>
                         <div>
                             <h2>Notable features</h2>
                             <ul>
-                                <li>Authentication Online/Offline</li>
-                                <li>Authorization Levels (Administrator/Employee)</li>
-                                <li>All CRUD Features</li>
-                                <li>Email sending</li>
-                                <li>Password Hashing</li>
+                                <li>Linear regression usage</li>
+                                <li>Tensorflow usage</li>
+                                <li>All SQL CRUD Features</li>
                             </ul>
                         </div>
                         <div>
@@ -200,57 +202,28 @@ function LinearRegressionAppPage() {
                 </div>
                 <FadeInWhenVisibleY isVisible={visibleState}>
                     <div className={visibleState ? classes.details : classes.detailshidden}>
-                        <SectionRight title="Login Section" image={require('../../images/FormsAppImages/loginImage.png')}>
+                        <SectionRight title="Interface" image={require('../../images/LinearRegressionImages/interface.png')}>
                             Velit dolore ipsum minim ad anim magna quis et cupidatat ad ex. Enim ea eu enim non officia et veniam pariatur excepteur consectetur ex ullamco excepteur dolor. Proident tempor veniam est laborum irure dolor adipisicing laborum excepteur. Qui ea fugiat sunt id incididunt minim voluptate eu occaecat adipisicing consequat incididunt. Et velit eu ad id qui anim laboris. Non et deserunt aute nostrud nisi dolor eiusmod magna incididunt sunt consequat tempor irure. Esse labore quis commodo tempor consectetur.
                         </SectionRight>
 
                         <Divisor />
 
-                        <SectionLeft title="Inventory Section" image={require('../../images/FormsAppImages/inventarioImage.png')}>
+                        <SectionLeft title="Adding values" image={require('../../images/LinearRegressionImages/addValues.png')}>
                             Velit dolore ipsum minim ad anim magna quis et cupidatat ad ex. Enim ea eu enim non officia et veniam pariatur excepteur consectetur ex ullamco excepteur dolor. Proident tempor veniam est laborum irure dolor adipisicing laborum excepteur. Qui ea fugiat sunt id incididunt minim voluptate eu occaecat adipisicing consequat incididunt. Et velit eu ad id qui anim laboris. Non et deserunt aute nostrud nisi dolor eiusmod magna incididunt sunt consequat tempor irure. Esse labore quis commodo tempor consectetur.
                         </SectionLeft>
 
                         <Divisor />
 
-                        <SectionRight title="Add Purchase Section" image={require('../../images/FormsAppImages/añadirComprasImage.png')}>
+                        <SectionRight title="Training network" image={require('../../images/LinearRegressionImages/trainNetwork.png')}>
                             Velit dolore ipsum minim ad anim magna quis et cupidatat ad ex. Enim ea eu enim non officia et veniam pariatur excepteur consectetur ex ullamco excepteur dolor. Proident tempor veniam est laborum irure dolor adipisicing laborum excepteur. Qui ea fugiat sunt id incididunt minim voluptate eu occaecat adipisicing consequat incididunt. Et velit eu ad id qui anim laboris. Non et deserunt aute nostrud nisi dolor eiusmod magna incididunt sunt consequat tempor irure. Esse labore quis commodo tempor consectetur.
                         </SectionRight>
 
                         <Divisor />
 
-                        <SectionLeft title="Purchases Section" image={require('../../images/FormsAppImages/verComprasImage.png')}>
-                            Velit dolore ipsum minim ad anim magna quis et cupidatat ad ex. Enim ea eu enim non officia et veniam pariatur excepteur consectetur ex ullamco excepteur dolor. Proident tempor veniam est laborum irure dolor adipisicing laborum excepteur. Qui ea fugiat sunt id incididunt minim voluptate eu occaecat adipisicing consequat incididunt. Et velit eu ad id qui anim laboris. Non et deserunt aute nostrud nisi dolor eiusmod magna incididunt sunt consequat tempor irure. Esse labore quis commodo tempor consectetur.
-                        </SectionLeft>
 
                         <Divisor />
 
-                        <SectionRight title="Add Sell Section" image={require('../../images/FormsAppImages/añadirVentaImage.png')}>
-                            Velit dolore ipsum minim ad anim magna quis et cupidatat ad ex. Enim ea eu enim non officia et veniam pariatur excepteur consectetur ex ullamco excepteur dolor. Proident tempor veniam est laborum irure dolor adipisicing laborum excepteur. Qui ea fugiat sunt id incididunt minim voluptate eu occaecat adipisicing consequat incididunt. Et velit eu ad id qui anim laboris. Non et deserunt aute nostrud nisi dolor eiusmod magna incididunt sunt consequat tempor irure. Esse labore quis commodo tempor consectetur.
-                        </SectionRight>
-
-                        <Divisor />
-
-                        <SectionLeft title="Sells Section" image={require('../../images/FormsAppImages/verVentasImage.png')}>
-                            Velit dolore ipsum minim ad anim magna quis et cupidatat ad ex. Enim ea eu enim non officia et veniam pariatur excepteur consectetur ex ullamco excepteur dolor. Proident tempor veniam est laborum irure dolor adipisicing laborum excepteur. Qui ea fugiat sunt id incididunt minim voluptate eu occaecat adipisicing consequat incididunt. Et velit eu ad id qui anim laboris. Non et deserunt aute nostrud nisi dolor eiusmod magna incididunt sunt consequat tempor irure. Esse labore quis commodo tempor consectetur.
-                        </SectionLeft>
-
-                        <Divisor />
-
-                        <SectionRight title="Clients Section" image={require('../../images/FormsAppImages/clientesImage.png')}>
-                            Velit dolore ipsum minim ad anim magna quis et cupidatat ad ex. Enim ea eu enim non officia et veniam pariatur excepteur consectetur ex ullamco excepteur dolor. Proident tempor veniam est laborum irure dolor adipisicing laborum excepteur. Qui ea fugiat sunt id incididunt minim voluptate eu occaecat adipisicing consequat incididunt. Et velit eu ad id qui anim laboris. Non et deserunt aute nostrud nisi dolor eiusmod magna incididunt sunt consequat tempor irure. Esse labore quis commodo tempor consectetur.
-                        </SectionRight>
-
-                        <Divisor />
-
-                        <SectionLeft title="Users Section" image={require('../../images/FormsAppImages/usuariosImage.png')}>
-                            Velit dolore ipsum minim ad anim magna quis et cupidatat ad ex. Enim ea eu enim non officia et veniam pariatur excepteur consectetur ex ullamco excepteur dolor. Proident tempor veniam est laborum irure dolor adipisicing laborum excepteur. Qui ea fugiat sunt id incididunt minim voluptate eu occaecat adipisicing consequat incididunt. Et velit eu ad id qui anim laboris. Non et deserunt aute nostrud nisi dolor eiusmod magna incididunt sunt consequat tempor irure. Esse labore quis commodo tempor consectetur.
-                        </SectionLeft>
-
-                        <Divisor />
-
-                        <SectionRight title="Mails Section" image={require('../../images/FormsAppImages/correosImage.png')}>
-                            Velit dolore ipsum minim ad anim magna quis et cupidatat ad ex. Enim ea eu enim non officia et veniam pariatur excepteur consectetur ex ullamco excepteur dolor. Proident tempor veniam est laborum irure dolor adipisicing laborum excepteur. Qui ea fugiat sunt id incididunt minim voluptate eu occaecat adipisicing consequat incididunt. Et velit eu ad id qui anim laboris. Non et deserunt aute nostrud nisi dolor eiusmod magna incididunt sunt consequat tempor irure. Esse labore quis commodo tempor consectetur.
-                        </SectionRight>
+                        
                     </div>
                 </FadeInWhenVisibleY>
 
