@@ -225,7 +225,6 @@ function LinearRegressionAppPage() {
                         <Divisor />
 
 
-                        <Divisor />
 
                         
                     </div>
