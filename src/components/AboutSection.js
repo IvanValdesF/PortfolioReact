@@ -75,7 +75,7 @@ function AboutSection(){
                           <div className={classes.history}>
                               I want to use my knowledge in order to solve problems in a 
                               profitable way for an organization and not just for fun as I've been
-                              doing sow far.
+                              doing so far.
                           </div>
                       
                     </p>
