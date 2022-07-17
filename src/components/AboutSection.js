@@ -67,16 +67,17 @@ function AboutSection(){
                     <h5>Fullstack web developer</h5>
                     <p>
                         Hello my name is Ivan!, 
-                        i am a pasionate self taught web developer that really loves
-                        engineering, i love the problem solving process in order to 
+                        I am a pasionate self taught web developer that really loves
+                        engineering and statistics, I love the problem solving process in order to 
                         make it by the most efficient way, my personality does not allow me to 
-                        leave a problem unsolved.
+                        leave a problem unsolved!.
                         
                           <div className={classes.history}>
                               I want to use my knowledge in order to solve problems in a 
                               profitable way for an organization and not just for fun as I've been
                               doing sow far.
                           </div>
+                      
                     </p>
                     <div className={classes.btn}>
                         <a href="#contact">Contact me!</a>
