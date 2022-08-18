@@ -19,7 +19,7 @@ function App() {
         <Route path="/windows-forms-app" element={<WinFormsAppPage />} />
         <Route path="/windows-forms-app-api" element={<ASPNetCoreAPIPage />} />
         <Route path="/linear-regression-app" element={<LinearRegressionAppPage />} />
-        <Route path="/online-shop-app" element={<OnlineShopPage />} />
+        <Route path="/ecommerce-app" element={<OnlineShopPage />} />
         <Route path="/coming-soon" element={<ComingSoon />} />
         
       </Routes>

@@ -116,7 +116,7 @@ function OnlineShopPage() {
                     <div className={classes.thumbnail}>
                         <div className={classes.h1Container}>
                             <h1>
-                                Linear Regression App
+                                Ecommerce app
                             </h1>
                         </div>
                     </div>
@@ -126,13 +126,12 @@ function OnlineShopPage() {
                         <div className={classes.Brief}>
                         <h2>Brief Introduction</h2>
                            <p>
-                                I made a python application that takes X and Y 
-                                values to calculate a linear regression ecuation and gives 
-                                the necesary data to calculate confidence intervals and 
-                                make sells pronostics with the objective of
-                                apply some of my knlowledges about 
-                                linear regression and neural networks.
-                           </p>
+                                I made a completely functional ecommerce app for my brother business,
+                                it handles things like orders, shopping cart, product reviews,
+                                user settings and payments using stripe API.
+                                It is not completely done, there is still work to do about the design and
+                                sites policy. 
+                            </p>
                         </div>
 
 
@@ -143,20 +142,17 @@ function OnlineShopPage() {
                         <div className={classes.summary}>
                         <div>
                             <h2>My Role</h2>
-                            I made this application by myself so my role was develop the entire application
-                            making use of my statistics and programming
-                            knlowledges
+                            My role in this project is the entire site development, such as the front-end, user interface,
+                            user experience, backend, database desing, API design, stripe API implementation, authentication and authorization system using jwt and more...
                         </div>
                         <div>
                             <h2>Project Difficulties</h2>
-                            One of the difficulties that I had making this application was the implementation
-                            of a neural network, initially I wanted to make the entire network by myself 
-                            just making use of calculus and programming.
+                            One of the difficulties of this project was the payment implementation, it was my first
+                            time using payments and wanted a reliable platform
                         </div>
                         <div>
                             <h2>My Solution</h2>
-                            Due to the complexity of that implementation I decided 
-                            to use tensorflow, a google library for machine learning.
+                            The way I solved it was implementing a payment gateaway using the Stripe API
                         </div>
                         </div>
 
@@ -164,22 +160,27 @@ function OnlineShopPage() {
                         <div>
                             <h2>Technologies used</h2>
                             <ul>
-                                <li>Python</li>
-                                <li>Machine Learning</li>
-                                <li>Numpy</li>
-                                <li>Tkinter</li>
-                                <li>SQLite3</li>
-                                <li>Matplotlib</li>
+                                <li>NodeJS</li>
+                                <li>VueJS</li>
+                                <li>Express</li>
+                                <li>SQL Server</li>
+                                <li>Vue Router</li>
+                                <li>Vuex</li>
+                                <li>Stripe API</li>
+                                <li>Json Web Tokens</li>
+                                <li>Tailwind</li>
+                                <li>Mailgun-JS</li>
                             </ul>
                         </div>
                         <div>
                             <h2>Notable features</h2>
                             <ul>
-                                <li>Linear regression usage</li>
-                                <li>Tensorflow usage</li>
+                                <li>Order historial retrieve</li>
+                                <li>Product reviews</li>
                                 <li>All SQL CRUD Features</li>
+                                <li>User authentication and authorization</li>
                             </ul>
-                        </div>
+                        </div>  
                         <div>
                             
                             
@@ -200,6 +201,33 @@ function OnlineShopPage() {
                     <button onClick={() => setVisibleState(!visibleState)}>{visibleState ? <FontAwesomeIcon size="4x" icon={faCaretSquareUp}></FontAwesomeIcon> : <FontAwesomeIcon size="4x" icon={faCaretSquareDown}></FontAwesomeIcon>}</button>
 
                 </div>
+                <FadeInWhenVisibleY isVisible={visibleState}>
+                    <div className={visibleState ? classes.details : classes.detailshidden}>
+                        <SectionRight title="All products section" image={require('../../images/ShopImages/allProducts.png')}>
+                            We have a all products section that retrieve a list of products stored in our database
+                        </SectionRight>
+
+                        <Divisor />
+
+                        <SectionLeft title="Categories" image={require('../../images/ShopImages/shirtsSection.png')}>
+                            Products can be splitted into categories with a dynamic url
+                        </SectionLeft>
+
+                        <Divisor />
+
+                        <SectionRight title="Training network" image={require('../../images/LinearRegressionImages/trainNetwork.png')}>
+                            The train network button is for start the network training using the given data
+                            and get the values fot the linear regression ecuation
+                        </SectionRight>
+
+                        <Divisor />
+
+
+
+                        
+                    </div>
+                </FadeInWhenVisibleY>
+
                 
 
             </div>

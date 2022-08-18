@@ -68,7 +68,7 @@ function AboutSection(){
                     <p>
                         Hello my name is Ivan!, 
                         I am a pasionate self taught web developer that really loves
-                        engineering and statistics, I love the problem solving process in order to 
+                        engineering, I love the problem solving process in order to 
                         make it by the most efficient way, my personality does not allow me to 
                         leave a problem unsolved!.
                         
