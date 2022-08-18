@@ -215,9 +215,39 @@ function OnlineShopPage() {
 
                         <Divisor />
 
-                        <SectionRight title="Training network" image={require('../../images/LinearRegressionImages/trainNetwork.png')}>
-                            The train network button is for start the network training using the given data
-                            and get the values fot the linear regression ecuation
+                        <SectionRight title="Product page" image={require('../../images/ShopImages/product.png')}>
+                            Products have a dynamic url, when te page is loaded it makes a http request to retrieve
+                            all product details and show them to the client
+                        </SectionRight>
+
+                        <Divisor />
+
+                        <SectionLeft title="Product reviews" image={require('../../images/ShopImages/review.png')}>
+                            If the user is logged; he can submit reviews to the product and qualify it! 
+                        </SectionLeft>
+
+                        <Divisor />
+
+                        <SectionRight title="Shopping cart" image={require('../../images/ShopImages/cart.png')}>
+                            A completely functional shopping cart that displays the products, subtotal, and a gateaway
+                            to the checkout
+                        </SectionRight>
+
+                        <Divisor />
+
+                        <SectionLeft title="User settings" image={require('../../images/ShopImages/userSettings.png')}>
+                            User settings section where a user can update his username or password.
+                            To update a password the user recieves a mail with a link that uses jwt with expire time,
+                            if the link is not expired, it will allow the user to submit a new passworld, otherwise
+                            he will see a link expired text.
+                        </SectionLeft>
+
+                        <Divisor />
+
+                        <SectionRight title="Orders" image={require('../../images/ShopImages/orders.png')}>
+                            User can retrieve his orders and see its status, if the order is completed then he will 
+                            see the status of paid, otherwise, if he used a delayed payment method and have not done it,
+                            he will see a unpaid status and a button to get the voucher pending to pay.
                         </SectionRight>
 
                         <Divisor />
