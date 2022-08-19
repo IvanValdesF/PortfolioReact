@@ -204,11 +204,13 @@ function OnlineShopPage() {
                 </div>
                 <FadeInWhenVisibleY isVisible={visibleState}>
                     <div className={visibleState ? classes.details : classes.detailshidden}>
-                        <Divisor />
+                        
 
                         <SectionLeft title="Login" image={require('../../images/ShopImages/login.png')}>
-                            User can log in to his account
+                            User can log in to his account or register
                         </SectionLeft>
+
+                        <Divisor />
 
                         <SectionRight title="All products section" image={require('../../images/ShopImages/allProducts.png')}>
                             We have a all products section that retrieve a list of products stored in our database
