@@ -108,8 +108,9 @@ function OnlineShopPage() {
     const [visibleState, setVisibleState] = useState(false)
 
     return (
+        
         <div className={visibleState ? classes.page : classes.pagehidden}>
-
+        
 
             <div className={classes.container}>
                 <FadeInWhenVisibleH1>
