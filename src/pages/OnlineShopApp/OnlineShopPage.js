@@ -123,23 +123,23 @@ function OnlineShopPage() {
                 </FadeInWhenVisibleH1>
 
                 <FadeInWhenVisibleX>
-                        <div className={classes.Brief}>
+                    <div className={classes.Brief}>
                         <h2>Brief Introduction</h2>
-                           <p>
-                                I made a completely functional ecommerce app for my brother business,
-                                it handles things like orders, shopping cart, product reviews,
-                                user settings and payments using stripe API.
-                                It is not completely done, there is still work to do about the design and
-                                sites policy. 
-                            </p>
-                        </div>
+                        <p>
+                            I made a completely functional ecommerce app for my brother business,
+                            it handles things like orders, shopping cart, product reviews,
+                            user settings and payments using stripe API.
+                            It is not completely done, there is still work to do about the design and
+                            sites policy.
+                        </p>
+                    </div>
 
 
 
 
-                        
-                    
-                        <div className={classes.summary}>
+
+
+                    <div className={classes.summary}>
                         <div>
                             <h2>My Role</h2>
                             My role in this project is the entire site development, such as the front-end, user interface,
@@ -154,9 +154,9 @@ function OnlineShopPage() {
                             <h2>My Solution</h2>
                             The way I solved it was implementing a payment gateaway using the Stripe API
                         </div>
-                        </div>
+                    </div>
 
-                        <div className={classes.tools}>
+                    <div className={classes.tools}>
                         <div>
                             <h2>Technologies used</h2>
                             <ul>
@@ -179,14 +179,15 @@ function OnlineShopPage() {
                                 <li>Product reviews</li>
                                 <li>All SQL CRUD Features</li>
                                 <li>User authentication and authorization</li>
+                                <li>MVC API Structure</li>
                             </ul>
-                        </div>  
+                        </div>
                         <div>
-                            
-                            
+
+
                         </div>
-                        </div>
-                    
+                    </div>
+
 
 
 
@@ -203,6 +204,12 @@ function OnlineShopPage() {
                 </div>
                 <FadeInWhenVisibleY isVisible={visibleState}>
                     <div className={visibleState ? classes.details : classes.detailshidden}>
+                        <Divisor />
+
+                        <SectionLeft title="Login" image={require('../../images/ShopImages/login.png')}>
+                            User can log in to his account
+                        </SectionLeft>
+
                         <SectionRight title="All products section" image={require('../../images/ShopImages/allProducts.png')}>
                             We have a all products section that retrieve a list of products stored in our database
                         </SectionRight>
@@ -223,7 +230,7 @@ function OnlineShopPage() {
                         <Divisor />
 
                         <SectionLeft title="Product reviews" image={require('../../images/ShopImages/review.png')}>
-                            If the user is logged; he can submit reviews to the product and qualify it! 
+                            If the user is logged; he can submit reviews to the product and qualify it!
                         </SectionLeft>
 
                         <Divisor />
@@ -245,20 +252,26 @@ function OnlineShopPage() {
                         <Divisor />
 
                         <SectionRight title="Orders" image={require('../../images/ShopImages/orders.png')}>
-                            User can retrieve his orders and see its status, if the order is completed then he will 
+                            User can retrieve his orders and see its status, if the order is completed then he will
                             see the status of paid, otherwise, if he used a delayed payment method and have not done it,
                             he will see a unpaid status and a button to get the voucher pending to pay.
                         </SectionRight>
 
                         <Divisor />
 
+                        <SectionLeft title="Database entity-relationship diagram" image={require('../../images/ShopImages/ERDiagram.png')}>
+                            
+                        </SectionLeft>
+
+                        <Divisor />
 
 
-                        
+
+
                     </div>
                 </FadeInWhenVisibleY>
 
-                
+
 
             </div>
         </div>
