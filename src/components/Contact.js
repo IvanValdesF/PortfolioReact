@@ -47,7 +47,7 @@ function Contact(){
                     </div>
                     <div className={classes.coption}>
                     <FontAwesomeIcon className={classes.icon} size='2x' icon={faPhone}/>
-                        +844 564 6463
+                        +52 867 330 9704
                     </div>
                     <div className={classes.coption}>
                     <FontAwesomeIcon className={classes.icon} size='2x' icon={faInstagram}/>
