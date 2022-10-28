@@ -152,7 +152,7 @@ function WinFormsAppPage() {
                         <div>
                             <h2>Project Difficulties</h2>
                             One of the problems that we faced was handling the API responses, the program
-                            could not understand directily the responses because it was given in JSON format.
+                            could not understand directly the responses because it was given in JSON format.
                         </div>
                         <div>
                             <h2>My Solution</h2>
@@ -171,6 +171,7 @@ function WinFormsAppPage() {
                                 <li>SMTP Mail Service</li>
                                 <li>API Rest</li>
                                 <li>Object Oriented Programming</li>
+                                <li>MySQL</li>
                             </ul>
                         </div>
                         <div>

@@ -76,7 +76,7 @@ function MyWork() {
             to abstract the logic of my Store Managment App in order to share it with an online store that is still in development."/>
             <ProjectCard projectRoute={currentURL + 'linear-regression-app'} link="https://github.com/IvanValdesF/PythonRegresionLinealUsage" image={require("../images/regresionImage.png")} title="Linear Regression App" tools="Python" tools2="Tensorflow" tools3="Sqlite" tools4="Tkinter" tools5="Numpy | Matplotlib" 
             description="I made a machine learning model aplying linear regression to make sells pronostics and get all necessary data to analize and calculate confidence intervals."/>
-            <ProjectCard projectRoute={currentURL+ 'ecommerce-app'}link="https://github.com/IvanValdesF/OnlineShopVueNodeJS" image={require("../images/ShopImages/shopThumbnail.png")} title="Ecommerce App" tools="Vue" tools2="Vuex" tools3="TailwindCSS"  tools4="Json Web Tokens"
+            <ProjectCard projectRoute={currentURL+ 'ecommerce-app'}link="https://github.com/IvanValdesF/OnlineShopVueNodeJS" image={require("../images/ShopImages/shopThumbnail.png")} title="Ecommerce App" tools="Vue" tools2="Vuex" tools3="TailwindCSS"  tools4="Json Web Tokens" tools5="NodeJS" tools6="Stripe API"
             description="Im still developing an online store following the concepts of ecommerce using a NodeJS API with authentications implementing JWT"/>
             
             </motion.div>
