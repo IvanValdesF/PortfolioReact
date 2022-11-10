@@ -70,13 +70,13 @@ function MyWork() {
             </FadeInWhenVisibleY>
             <motion.div animate={{y: hasBeenViewed ? 0 : '100vh',opacity: hasBeenViewed ? 1 : 0}} transition={{duration:2}} className={classes.work}>
 
-            <ProjectCard projectRoute={currentURL + 'windows-forms-app'}  link="https://github.com/IvanValdesF/SistemaVentasWinForms" image={require("../images/FormsAppImages/ventasImage.png")} title="Store Management App" tools="Windows Forms" tools2="Send Emails" description="In this project my co-worker and me made a windows forms app 
+            <ProjectCard projectRoute={'https://www.ivanvaldesdev.com/windows-forms-app'}  link="https://github.com/IvanValdesF/SistemaVentasWinForms" image={require("../images/FormsAppImages/ventasImage.png")} title="Store Management App" tools="Windows Forms" tools2="Send Emails" description="In this project my co-worker and me made a windows forms app 
             with the purpose of manage a clothing store inventory, sells, purchases, clients and employees."/>
-            <ProjectCard projectRoute={ currentURL + 'windows-forms-app-api'} link="https://github.com/IvanValdesF/VentasAPIv2" image={require("../images/APIImages/apiImage.png")} title="Store Management API" tools="ASP .NET Core" tools2="JSON Web Tokens" tools3="MySQL" description="I made an API 
+            <ProjectCard projectRoute={'https://www.ivanvaldesdev.com/windows-forms-app-api'} link="https://github.com/IvanValdesF/VentasAPIv2" image={require("../images/APIImages/apiImage.png")} title="Store Management API" tools="ASP .NET Core" tools2="JSON Web Tokens" tools3="MySQL" description="I made an API 
             to abstract the logic of my Store Managment App in order to share it with an online store that is still in development."/>
-            <ProjectCard projectRoute={currentURL + 'linear-regression-app'} link="https://github.com/IvanValdesF/PythonRegresionLinealUsage" image={require("../images/regresionImage.png")} title="Linear Regression App" tools="Python" tools2="Tensorflow" tools3="Sqlite" tools4="Tkinter" tools5="Numpy | Matplotlib" 
+            <ProjectCard projectRoute={'https://www.ivanvaldesdev.com/linear-regression-app'} link="https://github.com/IvanValdesF/PythonRegresionLinealUsage" image={require("../images/regresionImage.png")} title="Linear Regression App" tools="Python" tools2="Tensorflow" tools3="Sqlite" tools4="Tkinter" tools5="Numpy | Matplotlib" 
             description="I made a machine learning model aplying linear regression to make sells pronostics and get all necessary data to analize and calculate confidence intervals."/>
-            <ProjectCard projectRoute={currentURL+ 'ecommerce-app'}link="https://github.com/IvanValdesF/OnlineShopVueNodeJS" image={require("../images/ShopImages/shopThumbnail.png")} title="Ecommerce App" tools="Vue" tools2="Vuex" tools3="TailwindCSS"  tools4="Json Web Tokens" tools5="NodeJS" tools6="Stripe API"
+            <ProjectCard projectRoute={'https://www.ivanvaldesdev.com/ecommerce-app'}link="https://github.com/IvanValdesF/OnlineShopVueNodeJS" image={require("../images/ShopImages/shopThumbnail.png")} title="Ecommerce App" tools="Vue" tools2="Vuex" tools3="TailwindCSS"  tools4="Json Web Tokens" tools5="NodeJS" tools6="Stripe API"
             description="Im still developing an online store following the concepts of ecommerce using a NodeJS API with authentications implementing JWT"/>
             
             </motion.div>
